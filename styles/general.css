@@ -1,0 +1,99 @@
+/*
+--- 07 WHITESPACE
+
+- FONT SIZE
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/
+
+/* c3b3e8 */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  font-family: "Inter", sans-serif;
+  /* color: #555; */
+  color: #141414;
+  /* background-color: #f8f9fa; */
+}
+
+/* COMPONENTS */
+
+.btn {
+  display: block;
+  cursor: pointer;
+  padding: 1.2rem 2.4rem;
+
+  font-family: inherit;
+  font-size: 1.4rem;
+  letter-spacing: -0.75px;
+
+  border: none;
+  border-radius: 100px;
+}
+
+.btn-empty {
+  background-color: #fff;
+  color: inherit;
+  border: 0.5px solid #ced4da;
+  font-weight: 600;
+}
+
+.btn-filled {
+  background-color: #6941c6;
+  color: #fff;
+  font-weight: 500;
+}
+
+.gradient-heading {
+  background-image: -webkit-linear-gradient(0deg, #6941c6, #000, #000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.plain-text {
+  color: #303030;
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+.small-subheading {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #6941c6;
+  letter-spacing: -0.5px;
+  padding: 0.3rem 1.4rem;
+  margin-bottom: 3.2rem;
+  border-radius: 11px;
+  background-color: rgb(233 233 233 / 30%);
+}
+
+.margin-sides {
+  margin-left: 9vw;
+  margin-right: 9vw;
+}
+
+.faded-box {
+  padding: 1.6rem;
+  display: block;
+  width: 60%;
+  background-image: -webkit-linear-gradient(
+    45deg,
+    rgba(105, 65, 198, 0.15),
+    #fff
+  );
+  border-left: 3px solid #6941c6;
+}
+
+*:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8rem rgba(105, 65, 198, 0.42);
+}

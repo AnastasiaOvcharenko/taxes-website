@@ -1,0 +1,14 @@
+{
+  "folders": [
+	{
+		"path": "курсы/html и css/html-css-course-master/html-css-course-master/starter/07-Omnifood-Desktop"
+	},
+	{
+		"path": "Monexa"
+	}
+],
+  "settings": {
+    "liveServer.settings.port": 5501,
+    "liveServer.settings.multiRootWorkspaceName": "Monexa"
+  }
+}
